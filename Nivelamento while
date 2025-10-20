@@ -1,0 +1,213 @@
+# 1. Números de 1 a 10
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+
+# 2. Contagem regressiva de 10 a 1
+i = 10
+while i >= 1:
+    print(i)
+    i -= 1
+
+# 3. Números pares de 0 a 20
+i = 0
+while i <= 20:
+    print(i)
+    i += 2
+
+# 4. Números ímpares de 1 a 19
+i = 1
+while i < 20:
+    print(i)
+    i += 2
+
+# 5. Contar até o número digitado
+num = int(input("Digite um número: "))
+i = 1
+while i <= num:
+    print(i)
+    i += 1
+
+# 6. Palavra repetida 5 vezes
+palavra = input("Digite uma palavra: ")
+i = 0
+while i < 5:
+    print(palavra)
+    i += 1
+
+# 7. Tabuada do 2
+i = 1
+while i <= 10:
+    print(f"2 x {i} = {2 * i}")
+    i += 1
+
+# 8. Tabuada de um número escolhido
+n = int(input("Digite um número: "))
+i = 1
+while i <= 10:
+    print(f"{n} x {i} = {n * i}")
+    i += 1
+
+# 9. 5 nomes
+i = 0
+while i < 5:
+    nome = input("Digite um nome: ")
+    print("Nome:", nome)
+    i += 1
+
+# 10. Soma de 5 números
+i = 0
+soma = 0
+while i < 5:
+    n = float(input("Digite um número: "))
+    soma += n
+    i += 1
+print("Soma =", soma)
+
+# 11. Múltiplos de 5 até 50
+i = 5
+while i <= 50:
+    print(i)
+    i += 5
+
+# 12. Números até o digitado
+n = int(input("Digite um número: "))
+i = 0
+while i <= n:
+    print(i)
+    i += 1
+
+# 13. Pedir números até digitar 0
+n = 1
+while n != 0:
+    n = int(input("Digite um número (0 para parar): "))
+
+# 14. Pedir senha até acertar
+senha = ""
+while senha != "1234":
+    senha = input("Digite a senha: ")
+print("Acesso liberado")
+
+# 15. Divisíveis por 10 até 100
+i = 1
+while i <= 100:
+    if i % 10 == 0:
+        print(i)
+    i += 1
+
+# 16. 20 primeiros naturais
+i = 1
+while i <= 20:
+    print(i)
+    i += 1
+
+# 17. Letras de uma palavra
+palavra = input("Digite uma palavra: ")
+i = 0
+while i < len(palavra):
+    print(palavra[i])
+    i += 1
+
+# 18. Soma de 1 até o número digitado
+n = int(input("Digite um número: "))
+i = 1
+soma = 0
+while i <= n:
+    soma += i
+    i += 1
+print("Soma =", soma)
+
+# 19. Pedir números até digitar negativo
+n = 0
+while n >= 0:
+    n = int(input("Digite um número (negativo para parar): "))
+
+# 20. Contar letras de uma palavra
+palavra = input("Digite uma palavra: ")
+i = 0
+cont = 0
+while i < len(palavra):
+    cont += 1
+    i += 1
+print("Quantidade de letras:", cont)
+
+# 21. Números de 50 a 100
+i = 50
+while i <= 100:
+    print(i)
+    i += 1
+
+# 22. De 2 em 2 até 30
+i = 0
+while i <= 30:
+    print(i)
+    i += 2
+
+# 23. Mostrar apenas os pares entre 10 números
+i = 0
+while i < 10:
+    n = int(input("Digite um número: "))
+    if n % 2 == 0:
+        print("Par:", n)
+    i += 1
+
+# 24. 15 primeiros múltiplos de 3
+i = 1
+while i <= 15:
+    print(3 * i)
+    i += 1
+
+# 25. Notas até digitar -1
+i = 0
+nota = 0
+while nota != -1:
+    nota = float(input("Digite uma nota (-1 para parar): "))
+    if nota != -1:
+        i += 1
+print("Foram digitadas", i, "notas")
+
+# 26. Fatorial de um número
+n = int(input("Digite um número: "))
+fat = 1
+i = 1
+while i <= n:
+    fat *= i
+    i += 1
+print("Fatorial =", fat)
+
+# 27. Contar vogais de uma frase
+frase = input("Digite uma frase: ").lower()
+i = 0
+vogais = 0
+while i < len(frase):
+    if frase[i] in "aeiou":
+        vogais += 1
+    i += 1
+print("Total de vogais:", vogais)
+
+# 28. Pedir números até a soma passar de 50
+soma = 0
+while soma <= 50:
+    n = int(input("Digite um número: "))
+    soma += n
+print("Soma final =", soma)
+
+# 29. Média de 5 idades
+i = 0
+soma = 0
+while i < 5:
+    idade = int(input("Digite uma idade: "))
+    soma += idade
+    i += 1
+media = soma / 5
+print("Média das idades:", media)
+
+# 30. Números até digitar 'fim'
+numeros = []
+while True:
+    entrada = input("Digite um número ou 'fim' para parar: ")
+    if entrada.lower() == "fim":
+        break
+    numeros.append(int(entrada))
+print("Números digitados:", numeros)
