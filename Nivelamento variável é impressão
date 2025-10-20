@@ -1,0 +1,159 @@
+# 1. Variável com o nome
+nome = "Fernanda"
+print("Meu nome é", fernanda)
+
+# 2. Nome e idade do usuário
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+print("Olá", nome + ", você tem", idade, "anos.")
+
+# 3. Cidade e estado
+cidade = "Campina Grande"
+estado = "PB"
+print("Moro em", cidade, "-", estado)
+
+# 4. Curso escolhido
+curso = input("Digite o curso que você escolheu: ")
+print("Você escolheu o curso de", curso)
+
+# 5. Filme e ano
+filme = "Divertida Mente 2"
+ano = 2024
+print("O filme", filme, "foi lançado em", ano)
+
+# 6. Soma de dois números
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite outro número: "))
+print("Soma =", n1 + n2)
+
+# 7. Subtração
+a = int(input("Digite um número: "))
+b = int(input("Digite outro número: "))
+print("Subtração =", a - b)
+
+# 8. Multiplicação
+x = int(input("Digite um número: "))
+y = int(input("Digite outro número: "))
+print("Multiplicação =", x * y)
+
+# 9. Divisão
+num1 = float(input("Digite um número: "))
+num2 = float(input("Digite outro número: "))
+print("Divisão =", num1 / num2)
+
+# 10. Dobro de um número
+n = int(input("Digite um número: "))
+print("O dobro é", n * 2)
+
+# 11. Média de 3 notas
+n1 = float(input("Digite a 1ª nota: "))
+n2 = float(input("Digite a 2ª nota: "))
+n3 = float(input("Digite a 3ª nota: "))
+media = (n1 + n2 + n3) / 3
+print("Média =", round(media, 2))
+
+# 12. Calcular idade
+ano_atual = 2025
+ano_nascimento = int(input("Digite o ano de nascimento: "))
+idade = ano_atual - ano_nascimento
+print("Você tem", idade, "anos.")
+
+# 13. Calcular IMC
+peso = float(input("Digite seu peso (kg): "))
+altura = float(input("Digite sua altura (m): "))
+imc = peso / (altura ** 2)
+print("Seu IMC é", round(imc, 2))
+
+# 14. Converter dias em horas
+dias = int(input("Digite a quantidade de dias: "))
+horas = dias * 24
+print("Isso equivale a", horas, "horas.")
+
+# 15. Desconto de 10%
+valor = float(input("Digite o valor do produto: "))
+novo_valor = valor - (valor * 0.10)
+print("Preço com desconto:", round(novo_valor, 2))
+
+# 16. Maior de dois números
+n1 = int(input("Digite o primeiro número: "))
+n2 = int(input("Digite o segundo número: "))
+if n1 > n2:
+    print("O maior é", n1)
+else:
+    print("O maior é", n2)
+
+# 17. Menor de dois números
+a = int(input("Digite o primeiro número: "))
+b = int(input("Digite o segundo número: "))
+if a < b:
+    print("O menor é", a)
+else:
+    print("O menor é", b)
+
+# 18. Soma de 3 números
+n1 = int(input("Digite o primeiro número: "))
+n2 = int(input("Digite o segundo número: "))
+n3 = int(input("Digite o terceiro número: "))
+print("Soma =", n1 + n2 + n3)
+
+# 19. Média de 3 números
+a = float(input("Digite o primeiro número: "))
+b = float(input("Digite o segundo número: "))
+c = float(input("Digite o terceiro número: "))
+media = (a + b + c) / 3
+print("Média =", round(media, 2))
+
+# 20. Par ou ímpar
+num = int(input("Digite um número: "))
+if num % 2 == 0:
+    print("Par")
+else:
+    print("Ímpar")
+
+# 21. Time e jogador
+time = "Flamengo"
+jogador = "Pedro"
+print(jogador, "joga no", time)
+
+# 22. Nome de um livro
+livro = input("Digite o nome de um livro: ")
+print("Estou lendo o livro", livro)
+
+# 23. Profissão e empresa
+profissao = "Vendedora"
+empresa = "Loja Infantil Doce Sonho"
+print("Trabalho como", profissao, "na", empresa)
+
+# 24. Cor favorita
+cor = input("Digite sua cor favorita: ")
+print("Minha cor favorita é", cor)
+
+# 25. Animal e nome
+animal = "gato"
+nome_pet = "Mingau"
+print("Meu animal de estimação é um", animal, "e se chama", nome_pet)
+
+# 26. Nome e comida favorita
+nome = input("Digite seu nome: ")
+comida = input("Digite sua comida favorita: ")
+print(nome, "gosta de comer", comida)
+
+# 27. Cantor e música
+cantor = input("Digite o nome de um cantor ou cantora: ")
+musica = input("Digite o nome de uma música: ")
+print(cantor, "canta a música", musica)
+
+# 28. Cidade e ano
+cidade = input("Digite uma cidade: ")
+ano = input("Digite o ano da visita: ")
+print("Visitei", cidade, "em", ano)
+
+# 29. Escola e curso
+escola = input("Digite o nome da escola: ")
+curso = input("Digite o curso: ")
+print("Estudo", curso, "na escola", escola)
+
+# 30. Nome e apelido de um amigo
+amigo = input("Digite o nome do seu amigo: ")
+apelido = input("Digite o apelido dele: ")
+print("Meu amigo", amigo, "também é conhecido como", apelido)
