@@ -1,0 +1,145 @@
+# 1. Números de 1 a 10
+for i in range(1, 11):
+    print(i)
+
+# 2. Números pares de 1 a 20
+for i in range(2, 21, 2):
+    print(i)
+
+# 3. Tabuada do 5
+for i in range(1, 11):
+    print("5 x", i, "=", 5 * i)
+
+# 4. Tabuada de um número informado
+n = int(input("Digite um número: "))
+for i in range(1, 11):
+    print(n, "x", i, "=", n * i)
+
+# 5. Soma de 1 a 100
+soma = 0
+for i in range(1, 101):
+    soma += i
+print("Soma =", soma)
+
+# 7. Mostrar caracteres de uma palavra
+palavra = input("Digite uma palavra: ")
+for letra in palavra:
+    print(letra)
+
+# 8. Contar vogais em uma palavra
+texto = input("Digite uma palavra: ").lower()
+vogais = 0
+for letra in texto:
+    if letra in "aeiou":
+        vogais += 1
+print("Vogais:", vogais)
+
+# 9. Média de 10 números
+soma = 0
+for i in range(10):
+    n = float(input("Digite um número: "))
+    soma += n
+media = soma / 10
+print("Média =", media)
+
+# 10. Fatorial de um número
+n = int(input("Digite um número: "))
+fat = 1
+for i in range(1, n + 1):
+    fat *= i
+print("Fatorial =", fat)
+
+# 11. Contar espaços em uma frase
+frase = input("Digite uma frase: ")
+espacos = 0
+for c in frase:
+    if c == " ":
+        espacos += 1
+print("Espaços:", espacos)
+
+# 13. Ler 5 nomes e mostrar em ordem inversa
+nomes = []
+for i in range(5):
+    nome = input("Digite um nome: ")
+    nomes.append(nome)
+print("Ordem inversa:")
+for nome in reversed(nomes):
+    print(nome)
+
+# 14. Maior e menor de 5 notas
+notas = []
+for i in range(5):
+    nota = float(input("Digite a nota: "))
+    notas.append(nota)
+print("Maior nota:", max(notas))
+print("Menor nota:", min(notas))
+
+# 15. Números ímpares de 1 a 30
+for i in range(1, 31, 2):
+    print(i)
+
+# 16. Quadrados de 1 a 10
+for i in range(1, 11):
+    print(i, "² =", i ** 2)
+
+# 17. Quantos números são positivos entre 5 entradas
+positivos = 0
+for i in range(5):
+    n = float(input("Digite um número: "))
+    if n > 0:
+        positivos += 1
+print("Positivos:", positivos)
+
+# 18. Palavra invertida
+palavra = input("Digite uma palavra: ")
+invertida = ""
+for letra in palavra:
+    invertida = letra + invertida
+print("Invertida:", invertida)
+
+# 19. Mostrar apenas os pares entre 10 números
+for i in range(10):
+    n = int(input("Digite um número: "))
+    if n % 2 == 0:
+        print(n)
+
+# 20. Lista com 10 elementos e seus índices
+lista = []
+for i in range(10):
+    valor = input("Digite um valor: ")
+    lista.append(valor)
+for i in range(10):
+    print(i, "-", lista[i])
+
+# 21. Contar de 10 até 1
+for i in range(10, 0, -1):
+    print(i)
+
+# 22. Nome com mais letras entre 5
+nomes = []
+for i in range(5):
+    nome = input("Digite um nome: ")
+    nomes.append(nome)
+maior = max(nomes, key=len)
+print("Nome com mais letras:", maior)
+
+# 23. Soma dos números pares de 1 a 50
+soma = 0
+for i in range(2, 51, 2):
+    soma += i
+print("Soma dos pares:", soma)
+
+# 24. Divisores de um número
+n = int(input("Digite um número: "))
+print("Divisores de", n, ":")
+for i in range(1, n + 1):
+    if n % i == 0:
+        print(i)
+
+# 25. Quantas idades são maiores ou iguais a 18
+maiores = 0
+for i in range(5):
+    idade = int(input("Digite uma idade: "))
+    if idade >= 18:
+        maiores += 1
+print("Maiores de idade:", maiores)
