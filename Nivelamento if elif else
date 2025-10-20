@@ -1,0 +1,242 @@
+# 1. Maior que 10
+num = int(input("Digite um número: "))
+if num > 10:
+    print("Maior que 10")
+else:
+    print("Menor ou igual a 10")
+
+# 2. Positivo ou negativo
+if num > 0:
+    print("Positivo")
+elif num < 0:
+    print("Negativo")
+else:
+    print("Zero")
+
+# 3. Par ou ímpar
+if num % 2 == 0:
+    print("Par")
+else:
+    print("Ímpar")
+
+# 4. Maior ou menor de idade
+idade = int(input("Digite sua idade: "))
+if idade >= 18:
+    print("Maior de idade")
+else:
+    print("Menor de idade")
+
+# 5. Senha correta
+senha = input("Digite a senha: ")
+if senha == "1234":
+    print("Acesso permitido")
+else:
+    print("Senha incorreta")
+
+# 6. Maior entre dois números
+a = int(input("Primeiro número: "))
+b = int(input("Segundo número: "))
+if a > b:
+    print("Maior:", a)
+else:
+    print("Maior:", b)
+
+# 7. Maior entre três números
+x = int(input("Digite o primeiro: "))
+y = int(input("Digite o segundo: "))
+z = int(input("Digite o terceiro: "))
+maior = x
+if y > maior:
+    maior = y
+if z > maior:
+    maior = z
+print("O maior número é:", maior)
+
+# 8. Nota de aluno
+nota = float(input("Digite a nota: "))
+if nota >= 7:
+    print("Aprovado")
+elif nota >= 5:
+    print("Recuperação")
+else:
+    print("Reprovado")
+
+# 9. Classificação por idade
+if idade <= 12:
+    print("Criança")
+elif idade <= 17:
+    print("Adolescente")
+elif idade <= 59:
+    print("Adulto")
+else:
+    print("Idoso")
+
+# 10. Temperatura
+temp = float(input("Digite a temperatura: "))
+if temp > 30:
+    print("Está quente!")
+elif temp < 15:
+    print("Está frio!")
+else:
+    print("Clima agradável.")
+
+# 11. Turno de estudo
+turno = input("Digite o turno (M/V/N): ").upper()
+if turno == "M":
+    print("Bom dia!")
+elif turno == "V":
+    print("Boa tarde!")
+elif turno == "N":
+    print("Boa noite!")
+else:
+    print("Turno inválido")
+
+# 12. Velocidade
+vel = int(input("Velocidade do carro: "))
+if vel > 80:
+    print("Multado! Acima do limite.")
+else:
+    print("Velocidade permitida.")
+
+# 13. Número entre 1 e 100
+if 1 <= num <= 100:
+    print("Número dentro do intervalo.")
+else:
+    print("Fora do intervalo.")
+
+# 14. Iguais ou diferentes
+n1 = int(input("Digite o primeiro número: "))
+n2 = int(input("Digite o segundo número: "))
+if n1 == n2:
+    print("São iguais")
+else:
+    print("São diferentes")
+
+# 15. Vogal ou consoante
+letra = input("Digite uma letra: ").lower()
+if letra in "aeiou":
+    print("Vogal")
+else:
+    print("Consoante")
+
+# 16. Menor de dois números
+if a < b:
+    print("Menor:", a)
+else:
+    print("Menor:", b)
+
+# 17. Tipo de triângulo
+l1 = int(input("Lado 1: "))
+l2 = int(input("Lado 2: "))
+l3 = int(input("Lado 3: "))
+if l1 == l2 == l3:
+    print("Equilátero")
+elif l1 == l2 or l2 == l3 or l1 == l3:
+    print("Isósceles")
+else:
+    print("Escaleno")
+
+# 18. Operação matemática
+op = input("Escolha (+, -, *, /): ")
+n1 = float(input("Número 1: "))
+n2 = float(input("Número 2: "))
+if op == "+":
+    print("Resultado:", n1 + n2)
+elif op == "-":
+    print("Resultado:", n1 - n2)
+elif op == "*":
+    print("Resultado:", n1 * n2)
+elif op == "/":
+    print("Resultado:", n1 / n2)
+else:
+    print("Operação inválida")
+
+# 19. Ano bissexto
+ano = int(input("Digite o ano: "))
+if (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0):
+    print("Ano bissexto")
+else:
+    print("Não é bissexto")
+
+# 20. Múltiplo de 3 e 5
+n = int(input("Digite um número: "))
+if n % 3 == 0 and n % 5 == 0:
+    print("Múltiplo de 3 e 5")
+else:
+    print("Não é múltiplo de 3 e 5")
+
+# 21. Preço com desconto
+preco = float(input("Digite o preço: "))
+desc = preco * 0.1
+print("Preço com desconto:", preco - desc)
+
+# 22. Faixa salarial
+sal = float(input("Digite seu salário: "))
+if sal < 1500:
+    print("Baixa renda")
+elif sal <= 5000:
+    print("Classe média")
+else:
+    print("Alta renda")
+
+# 23. Pode dirigir
+if idade >= 18:
+    print("Pode dirigir")
+else:
+    print("Não pode dirigir")
+
+# 24. Média de duas notas
+n1 = float(input("Primeira nota: "))
+n2 = float(input("Segunda nota: "))
+media = (n1 + n2) / 2
+print("Média:", media)
+
+# 25. Saudações por hora
+hora = int(input("Digite a hora (0-23): "))
+if 0 <= hora < 12:
+    print("Bom dia!")
+elif 12 <= hora < 18:
+    print("Boa tarde!")
+else:
+    print("Boa noite!")
+
+# 26. Direito ao voto
+if idade >= 16:
+    print("Pode votar")
+else:
+    print("Ainda não pode votar")
+
+# 27. Divisível por 2 e 3
+num2 = int(input("Digite um número: "))
+if num2 % 2 == 0 and num2 % 3 == 0:
+    print("Divisível por 2 e 3")
+else:
+    print("Não é divisível por 2 e 3")
+
+# 28. IMC
+peso = float(input("Peso (kg): "))
+altura = float(input("Altura (m): "))
+imc = peso / (altura ** 2)
+print("Seu IMC é:", round(imc, 2))
+if imc < 18.5:
+    print("Abaixo do peso")
+elif imc < 25:
+    print("Peso ideal")
+else:
+    print("Acima do peso")
+
+# 29. Número primo
+num3 = int(input("Digite um número: "))
+cont = 0
+for i in range(1, num3 + 1):
+    if num3 % i == 0:
+        cont += 1
+if cont == 2:
+    print("Número primo")
+else:
+    print("Não é primo")
+
+# 30. Nome e nota
+nome = input("Digite seu nome: ")
+nota = float(input("Digite sua nota: "))
+print(f"Aluno: {nome} - Nota: {nota}")
