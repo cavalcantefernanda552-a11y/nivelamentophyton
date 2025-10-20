@@ -1,0 +1,78 @@
+# 1. Mostra o nome
+print("Fernanda")
+
+# 2. Mostra uma frase
+print("Olá, mundo!")
+
+# 3. Mostra o número 100
+print(100)
+
+# 4. Dois números na mesma linha
+print(7, 15)
+
+# 5. Nome e idade em linhas diferentes
+print("Fernanda")
+print("18 anos")
+
+# 6. Soma de 2 + 3
+print(2 + 3)
+
+# 7. Frase com soma
+print("A soma de 5 + 8 é 13")
+
+# 8. Três palavras, uma por linha
+print("Casa")
+print("Sol")
+print("Feliz")
+
+# 9. Três números na mesma linha
+print(3, 8, 12)
+
+# 10. Mensagem com aspas
+print("'Python é legal'")
+
+# 11. Tabuada do 2
+print("2 x 1 = 2")
+print("2 x 2 = 4")
+print("2 x 3 = 6")
+print("2 x 4 = 8")
+print("2 x 5 = 10")
+print("2 x 6 = 12")
+print("2 x 7 = 14")
+print("2 x 8 = 16")
+print("2 x 9 = 18")
+print("2 x 10 = 20")
+
+# 12. Forma com asteriscos
+print("***")
+print("***")
+print("***")
+
+# 13. Frase repetida duas vezes
+print("Aprendendo Python")
+print("Aprendendo Python")
+
+# 14. Palavra repetida 5 vezes na mesma linha
+print("Python " * 5)
+
+# 15. Frase em maiúsculas
+print("EU ESTOU APRENDENDO PYTHON")
+
+# 16. Número decimal
+print(3.14)
+
+# 17. Resultado de 10 - 4
+print(10 - 4)
+
+# 18. Nome com emoji
+print("Fernanda 😊")
+
+# 19. Lista de compras
+print("Pão")
+print("Leite")
+print("Café")
+
+# 20. Informações formatadas
+print("Nome: João")
+print("Idade: 20 anos")
+print("Cidade: Campina Grande")
